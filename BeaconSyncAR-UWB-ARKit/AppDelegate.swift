@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  BeaconSyncAR-UWB-ARKit
 //
-//  Created by Maitree Hirunteeyakul on 13/3/2025.
+//  Created by Maitree Hirunteeyakul on 10/3/2025.
 //
 
 import UIKit
@@ -15,7 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-
+        Logger.addLog(label: "Application launched")
+        
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView()
 

@@ -29,9 +29,22 @@
 		6251F7712D82CDF3004AE43C /* BeaconSyncAR-UWB-ARKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeaconSyncAR-UWB-ARKitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		6251F7B72D82D70A004AE43C /* Exceptions for "BeaconSyncAR-UWB-ARKit" folder in "BeaconSyncAR-UWB-ARKit" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 6251F7562D82CDF1004AE43C /* BeaconSyncAR-UWB-ARKit */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		6251F7592D82CDF1004AE43C /* BeaconSyncAR-UWB-ARKit */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				6251F7B72D82D70A004AE43C /* Exceptions for "BeaconSyncAR-UWB-ARKit" folder in "BeaconSyncAR-UWB-ARKit" target */,
+			);
 			path = "BeaconSyncAR-UWB-ARKit";
 			sourceTree = "<group>";
 		};
@@ -399,13 +412,20 @@
 				DEVELOPMENT_TEAM = U2S8Q8VES6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BeaconSyncAR-UWB-ARKit/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is used to exchange Nearby Interaction configuration data with a connected accessory.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses bluetooth to connect to a FiRa device, to exchange parameters and start UWB ranging";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide compass information.";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "Demonstrate the Nearby Interaction third-party accessory API with a Bluetooth connected accessory";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -430,13 +450,20 @@
 				DEVELOPMENT_TEAM = U2S8Q8VES6;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BeaconSyncAR-UWB-ARKit/Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is used to exchange Nearby Interaction configuration data with a connected accessory.";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "This app uses bluetooth to connect to a FiRa device, to exchange parameters and start UWB ranging";
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to provide compass information.";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "Demonstrate the Nearby Interaction third-party accessory API with a Bluetooth connected accessory";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
