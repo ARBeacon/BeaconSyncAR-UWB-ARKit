@@ -160,7 +160,7 @@ extension AnchorsManager {
         }
         let body = UploadAnchorParams(relativeTransform: BackendSimdFloat4x4(relativeTransform))
         
-        let urlString = "https://api.fyp.maitree.dev/UWBAnchor/\(beaconName)/new"
+        let urlString = "\(API_ENDPOINT)/UWBAnchor/\(beaconName)/new"
         guard let url = URL(string: urlString) else {
             throw URLError(.badURL)
         }
@@ -193,7 +193,7 @@ extension AnchorsManager {
     private func download(for beacon: Beacon) async throws -> [Anchor] {
         guard let beaconName = beacon.peripheral.name else {throw AnchorsManagerDownloadError.missingBeaconName}
         
-        let urlString = "https://api.fyp.maitree.dev/UWBAnchor/\(beaconName)/list"
+        let urlString = "\(API_ENDPOINT)/UWBAnchor/\(beaconName)/list"
         guard let url = URL(string: urlString) else {
             throw URLError(.badURL)
         }

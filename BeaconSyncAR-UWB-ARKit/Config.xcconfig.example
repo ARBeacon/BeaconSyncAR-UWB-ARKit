@@ -1,0 +1,10 @@
+//
+//  Config.xcconfig
+//  BeaconSyncAR-UWB-ARKit
+//
+//  Created by Maitree Hirunteeyakul on 07/04/2025.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+API_ENDPOINT = https:/$()/

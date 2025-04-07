@@ -8,6 +8,13 @@
 import UIKit
 import SwiftUI
 
+let API_ENDPOINT: String = {
+    if let url = Bundle.main.object(forInfoDictionaryKey: "API_ENDPOINT") as? String {
+        return url
+    }
+    fatalError("API_ENDPOINT not found in info dictionary.")
+}()
+
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
