@@ -2,6 +2,8 @@
 
 iOS app for UWB-assisted AR synchronization using Apple ARKit with centimeter-precise positioning.
 
+![ScreenRecording_03-22-2025 14-27-37_1](https://github.com/user-attachments/assets/590cb679-3012-4156-9e63-df6491418ffe)
+
 ## 🚀 Quick Start
 
 ### Prerequisites
