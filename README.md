@@ -26,3 +26,5 @@ Edit the Config.xcconfig file with your [backend](https://github.com/ARBeacon/Be
 3. Run the app:
 
 open the project in Xcode and click "Run".
+
+_Note: This README.md was refined with the assistance of [DeepSeek](https://www.deepseek.com)_
