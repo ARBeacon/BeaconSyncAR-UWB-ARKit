@@ -1,8 +1,8 @@
-# BeaconSyncAR-iBeacon-ARKit
+# BeaconSyncAR-UWB-ARKit
 
 iOS app for UWB-assisted AR synchronization using Apple ARKit with centimeter-precise positioning.
 
-![ScreenRecording_03-22-2025 14-27-37_1](https://github.com/user-attachments/assets/590cb679-3012-4156-9e63-df6491418ffe)
+![ScreenRecording_04-05-2025 15-34-30_1](https://github.com/user-attachments/assets/a5b649d5-33c2-47ef-9099-ffb67b49a1fa)
 
 ## 🚀 Quick Start
 
